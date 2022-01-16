@@ -75,9 +75,9 @@ def submitTime():
     while user_input > 0:
         print(f"user_input={user_input}")
         # todo 3 # create a variable for minutes that will store divmod(user_input, 60)
-        # yara: divmod(a,b) = a divided by b , gives(answer , reminder)
-        # user input divided by 60 will give mints and reminder is seconds.
-        # the answer is the min_s and reminder is second_s
+        # yara: divmod(a,b) = a divided by b , gives(answer , remainder)
+        # user input divided by 60 will give mints and remainder  is seconds.
+        # the answer is the min_s and remainder is second_s
 
         minute_s, second_s = divmod(user_input, 60)
 
